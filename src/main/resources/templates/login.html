@@ -60,4 +60,9 @@
     </div>
 </div>
 </body>
+
+<footer class="mt-5 text-center text-muted small">
+    <p th:text="${'학번: 2071178 | 성명: 천일영 | 실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></p>
+</footer>
+
 </html>
